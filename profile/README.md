@@ -35,6 +35,7 @@ gregale start ./my-api
 | [gregale-python](https://github.com/gregale-dev/gregale-python) | Python SDK |
 | [gregale-go](https://github.com/gregale-dev/gregale-go) | Go SDK |
 | [gregale-cursor-plugin](https://github.com/gregale-dev/gregale-cursor-plugin) | Deploy, diagnose and roll back apps from Cursor through Gregale's hosted MCP server |
+| [benchmarks](https://github.com/gregale-dev/benchmarks) | Reproducible benchmark datasets, fixtures and verification scripts |
 
 ## Links
 
@@ -42,6 +43,9 @@ gregale start ./my-api
 [Docs](https://gregale.dev/docs) ·
 [Quickstart](https://gregale.dev/docs/quickstart) ·
 [Pricing](https://gregale.dev/pricing) ·
+[Research](https://gregale.dev/research) ·
+[Articles](https://gregale.dev/articles) ·
+[llms.txt](https://gregale.dev/llms.txt) ·
 [Talk to a founder](https://gregale.dev/contact) ·
 [LinkedIn](https://www.linkedin.com/company/gregale/)
 
