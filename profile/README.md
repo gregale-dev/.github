@@ -38,9 +38,10 @@ or runaway bot loops cannot surprise your bill.
 | [fastapi-postgres-jobs](https://github.com/gregale-dev/fastapi-postgres-jobs) | FastAPI HTTP service + async background jobs + managed Postgres starter |
 | [benchmarks](https://github.com/gregale-dev/benchmarks) | Reproducible benchmark datasets, fixtures and verification scripts |
 
-### Official SDKs
+### Community & SDKs
 | Repository | What it is |
 |---|---|
+| [community](https://github.com/gregale-dev/community) | Public Q&A, architecture guides, and troubleshooting [Discussions](https://github.com/gregale-dev/community/discussions) |
 | [gregale-js](https://github.com/gregale-dev/gregale-js) | JavaScript and TypeScript SDKs |
 | [gregale-python](https://github.com/gregale-dev/gregale-python) | Python SDK |
 | [gregale-go](https://github.com/gregale-dev/gregale-go) | Go SDK |
@@ -48,6 +49,8 @@ or runaway bot loops cannot surprise your bill.
 ## Links
 
 [Website](https://gregale.dev) ·
+[Templates](https://gregale.dev/templates) ·
+[Community Q&A](https://github.com/gregale-dev/community/discussions) ·
 [Features](https://gregale.dev/features) ·
 [Solutions](https://gregale.dev/solutions) ·
 [Docs](https://gregale.dev/docs) ·
