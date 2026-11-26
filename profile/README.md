@@ -10,12 +10,13 @@ or runaway bot loops cannot surprise your bill.
 
 ## Repositories
 
-### Agent & IDE Integrations
+### Agent, IDE & CI/CD Integrations
 | Repository | What it is |
 |---|---|
 | [gregale-cursor-plugin](https://github.com/gregale-dev/gregale-cursor-plugin) | Deploy, diagnose and roll back apps from Cursor through Gregale's hosted MCP server |
 | [gregale-antigravity-plugin](https://github.com/gregale-dev/gregale-antigravity-plugin) | Deploy, diagnose and roll back apps from Antigravity through Gregale's hosted MCP server |
 | [gregale-claude-code-plugin](https://github.com/gregale-dev/gregale-claude-code-plugin) | Claude Code plugin & marketplace for deploying and diagnosing Gregale apps via MCP |
+| [setup-gregale](https://github.com/gregale-dev/setup-gregale) | GitHub Action (`gregale-dev/setup-gregale@v1`) to install & configure the Gregale CLI in CI/CD workflows |
 
 ### Remote MCP Server Starters
 | Repository | What it is |
@@ -31,6 +32,8 @@ or runaway bot loops cannot surprise your bill.
 | [durable-stripe-webhooks](https://github.com/gregale-dev/durable-stripe-webhooks) | Stripe & generic HMAC-SHA256 webhook receiver with deduplication, retries & DLQ replay while parked |
 | [postgres-migration-rollback-demo](https://github.com/gregale-dev/postgres-migration-rollback-demo) | FastAPI + managed Postgres starter showing release migrations & `gregale rollback --restore-databases` |
 | [edge-waf-rate-limit-starter](https://github.com/gregale-dev/edge-waf-rate-limit-starter) | Pre-wake OWASP WAF, PoW bot challenge, composite rate limits, hard spend caps & trace fixtures |
+| [nextjs-postgres-starter](https://github.com/gregale-dev/nextjs-postgres-starter) | Next.js 16 (App Router, standalone output) + managed Postgres 17 starter with release migrations |
+| [bun-hono-postgres-starter](https://github.com/gregale-dev/bun-hono-postgres-starter) | Bun + Hono + TypeScript + managed Postgres 17 API starter |
 | [node-api-worker](https://github.com/gregale-dev/node-api-worker) | Node.js HTTP API + durable background worker & queue starter |
 | [fastapi-postgres-jobs](https://github.com/gregale-dev/fastapi-postgres-jobs) | FastAPI HTTP service + async background jobs + managed Postgres starter |
 | [benchmarks](https://github.com/gregale-dev/benchmarks) | Reproducible benchmark datasets, fixtures and verification scripts |
