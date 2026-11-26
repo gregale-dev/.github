@@ -24,9 +24,13 @@ or runaway bot loops cannot surprise your bill.
 | [mcp-server-python](https://github.com/gregale-dev/mcp-server-python) | Stateless Streamable HTTP MCP server in Python with `PyJWT` external OAuth & `AGENTS.md` |
 | [mcp-server-go](https://github.com/gregale-dev/mcp-server-go) | Stateless Streamable HTTP MCP server in Go (`modelcontextprotocol/go-sdk`) with external OAuth & `AGENTS.md` |
 
-### Application Starters & Benchmarks
+### Platform Feature & Application Starters
 | Repository | What it is |
 |---|---|
+| [scale-to-zero-websockets](https://github.com/gregale-dev/scale-to-zero-websockets) | WebSocket & SSE chat/notifications starter on Managed Realtime — idle clients stay connected at `$0` compute |
+| [durable-stripe-webhooks](https://github.com/gregale-dev/durable-stripe-webhooks) | Stripe & generic HMAC-SHA256 webhook receiver with deduplication, retries & DLQ replay while parked |
+| [postgres-migration-rollback-demo](https://github.com/gregale-dev/postgres-migration-rollback-demo) | FastAPI + managed Postgres starter showing release migrations & `gregale rollback --restore-databases` |
+| [edge-waf-rate-limit-starter](https://github.com/gregale-dev/edge-waf-rate-limit-starter) | Pre-wake OWASP WAF, PoW bot challenge, composite rate limits, hard spend caps & trace fixtures |
 | [node-api-worker](https://github.com/gregale-dev/node-api-worker) | Node.js HTTP API + durable background worker & queue starter |
 | [fastapi-postgres-jobs](https://github.com/gregale-dev/fastapi-postgres-jobs) | FastAPI HTTP service + async background jobs + managed Postgres starter |
 | [benchmarks](https://github.com/gregale-dev/benchmarks) | Reproducible benchmark datasets, fixtures and verification scripts |
