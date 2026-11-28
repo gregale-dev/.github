@@ -24,6 +24,7 @@ or runaway bot loops cannot surprise your bill.
 | [mcp-server-node](https://github.com/gregale-dev/mcp-server-node) | Stateless Streamable HTTP MCP server in Node.js that scales to zero (external OAuth, scoped tools, `AGENTS.md`) |
 | [mcp-server-python](https://github.com/gregale-dev/mcp-server-python) | Stateless Streamable HTTP MCP server in Python with `PyJWT` external OAuth & `AGENTS.md` |
 | [mcp-server-go](https://github.com/gregale-dev/mcp-server-go) | Stateless Streamable HTTP MCP server in Go (`modelcontextprotocol/go-sdk`) with external OAuth & `AGENTS.md` |
+| [mcp-server-typescript-oauth](https://github.com/gregale-dev/mcp-server-typescript-oauth) | Remote MCP server in TypeScript (official SDK) that checks OAuth 2.1 access tokens: RFC 9728 metadata, audience and scope checks, tests |
 
 ### Platform Feature & Application Starters
 | Repository | What it is |
@@ -34,7 +35,8 @@ or runaway bot loops cannot surprise your bill.
 | [edge-waf-rate-limit-starter](https://github.com/gregale-dev/edge-waf-rate-limit-starter) | Pre-wake OWASP WAF, PoW bot challenge, composite rate limits, hard spend caps & trace fixtures |
 | [nextjs-postgres-starter](https://github.com/gregale-dev/nextjs-postgres-starter) | Next.js 16 (App Router, standalone output) + managed Postgres 17 starter with release migrations |
 | [bun-hono-postgres-starter](https://github.com/gregale-dev/bun-hono-postgres-starter) | Bun + Hono + TypeScript + managed Postgres 17 API starter |
-| [node-api-worker](https://github.com/gregale-dev/node-api-worker) | Node.js HTTP API + durable background worker & queue starter |
+| [node-api-worker](https://github.com/gregale-dev/node-api-worker) | Docker Compose app to production: Node.js API, private worker & Postgres job queue from one `compose.yaml` |
+| [rust-axum-postgres](https://github.com/gregale-dev/rust-axum-postgres) | Rust Axum + sqlx API on managed Postgres 17: one binary serves and migrates, 57 MB image |
 | [fastapi-postgres-jobs](https://github.com/gregale-dev/fastapi-postgres-jobs) | FastAPI HTTP service + async background jobs + managed Postgres starter |
 | [benchmarks](https://github.com/gregale-dev/benchmarks) | Reproducible benchmark datasets, fixtures and verification scripts |
 
